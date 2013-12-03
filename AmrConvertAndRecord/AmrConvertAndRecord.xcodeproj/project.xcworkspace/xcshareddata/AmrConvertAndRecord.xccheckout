@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>97167977-1CE3-40AF-8E33-EC7F6AD67CD9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AmrConvertAndRecord</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A8555FB8-3F62-42FC-9F05-24BEC9845D69</key>
+		<string>https://github.com/holyen/AmrConverterAndRecordDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AmrConvertAndRecord/AmrConvertAndRecord.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A8555FB8-3F62-42FC-9F05-24BEC9845D69</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/holyen/AmrConverterAndRecordDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A8555FB8-3F62-42FC-9F05-24BEC9845D69</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A8555FB8-3F62-42FC-9F05-24BEC9845D69</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AmrConverterAndRecordDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

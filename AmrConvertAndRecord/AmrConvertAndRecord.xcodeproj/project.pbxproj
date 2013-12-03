@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		589E4BD9184DF769005A3116 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 589E4BD1184DF769005A3116 /* libopencore-amrnb.a */; };
+		589E4BDA184DF769005A3116 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 589E4BD2184DF769005A3116 /* libopencore-amrwb.a */; };
+		9E17DC47181DFCA9005C6794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC46181DFCA9005C6794 /* Foundation.framework */; };
+		9E17DC49181DFCA9005C6794 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC48181DFCA9005C6794 /* CoreGraphics.framework */; };
+		9E17DC4B181DFCA9005C6794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC4A181DFCA9005C6794 /* UIKit.framework */; };
+		9E17DC51181DFCA9005C6794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E17DC4F181DFCA9005C6794 /* InfoPlist.strings */; };
+		9E17DC53181DFCA9005C6794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E17DC52181DFCA9005C6794 /* main.m */; };
+		9E17DC57181DFCA9005C6794 /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E17DC56181DFCA9005C6794 /* CWAppDelegate.m */; };
+		9E17DC59181DFCA9005C6794 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E17DC58181DFCA9005C6794 /* Images.xcassets */; };
+		9E17DC60181DFCA9005C6794 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC5F181DFCA9005C6794 /* XCTest.framework */; };
+		9E17DC61181DFCA9005C6794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC46181DFCA9005C6794 /* Foundation.framework */; };
+		9E17DC62181DFCA9005C6794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC4A181DFCA9005C6794 /* UIKit.framework */; };
+		9E17DC6A181DFCA9005C6794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E17DC68181DFCA9005C6794 /* InfoPlist.strings */; };
+		9E17DC6C181DFCAA005C6794 /* AmrConvertAndRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E17DC6B181DFCAA005C6794 /* AmrConvertAndRecordTests.m */; };
+		9E17DC78181DFD24005C6794 /* CWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E17DC76181DFD24005C6794 /* CWMainViewController.m */; };
+		9E17DC79181DFD24005C6794 /* CWMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E17DC77181DFD24005C6794 /* CWMainViewController.xib */; };
+		9E17DC7B181E0C8D005C6794 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC7A181E0C8D005C6794 /* AVFoundation.framework */; };
+		9E17DC7D181E0C98005C6794 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC7C181E0C98005C6794 /* AudioToolbox.framework */; };
+		9E17DC7F181E0CA9005C6794 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E17DC7E181E0CA9005C6794 /* CoreAudio.framework */; };
+		9E17DC8E181E3786005C6794 /* CWUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E17DC8D181E3786005C6794 /* CWUtility.m */; };
+		9E17DC91181F533D005C6794 /* CWTouchHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E17DC90181F533D005C6794 /* CWTouchHandleView.m */; };
+		9EDFF6721820D5C60014F421 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFF66F1820D5C60014F421 /* amrFileCodec.mm */; };
+		9EDFF6731820D5C60014F421 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFF6711820D5C60014F421 /* wav.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E17DC63181DFCA9005C6794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E17DC3B181DFCA9005C6794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E17DC42181DFCA9005C6794;
+			remoteInfo = AmrConvertAndRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		589E4BD1184DF769005A3116 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		589E4BD2184DF769005A3116 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		589E4BD4184DF769005A3116 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		589E4BD5184DF769005A3116 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		589E4BD7184DF769005A3116 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		589E4BD8184DF769005A3116 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		9E17DC43181DFCA9005C6794 /* AmrConvertAndRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmrConvertAndRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E17DC46181DFCA9005C6794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E17DC48181DFCA9005C6794 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E17DC4A181DFCA9005C6794 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E17DC4E181DFCA9005C6794 /* AmrConvertAndRecord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmrConvertAndRecord-Info.plist"; sourceTree = "<group>"; };
+		9E17DC50181DFCA9005C6794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E17DC52181DFCA9005C6794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E17DC54181DFCA9005C6794 /* AmrConvertAndRecord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmrConvertAndRecord-Prefix.pch"; sourceTree = "<group>"; };
+		9E17DC55181DFCA9005C6794 /* CWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate.h; sourceTree = "<group>"; };
+		9E17DC56181DFCA9005C6794 /* CWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate.m; sourceTree = "<group>"; };
+		9E17DC58181DFCA9005C6794 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E17DC5E181DFCA9005C6794 /* AmrConvertAndRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmrConvertAndRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E17DC5F181DFCA9005C6794 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9E17DC67181DFCA9005C6794 /* AmrConvertAndRecordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmrConvertAndRecordTests-Info.plist"; sourceTree = "<group>"; };
+		9E17DC69181DFCA9005C6794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E17DC6B181DFCAA005C6794 /* AmrConvertAndRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmrConvertAndRecordTests.m; sourceTree = "<group>"; };
+		9E17DC75181DFD24005C6794 /* CWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMainViewController.h; sourceTree = "<group>"; };
+		9E17DC76181DFD24005C6794 /* CWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMainViewController.m; sourceTree = "<group>"; };
+		9E17DC77181DFD24005C6794 /* CWMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWMainViewController.xib; sourceTree = "<group>"; };
+		9E17DC7A181E0C8D005C6794 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9E17DC7C181E0C98005C6794 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9E17DC7E181E0CA9005C6794 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		9E17DC8C181E3786005C6794 /* CWUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUtility.h; sourceTree = "<group>"; };
+		9E17DC8D181E3786005C6794 /* CWUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUtility.m; sourceTree = "<group>"; };
+		9E17DC8F181F533D005C6794 /* CWTouchHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTouchHandleView.h; sourceTree = "<group>"; };
+		9E17DC90181F533D005C6794 /* CWTouchHandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTouchHandleView.m; sourceTree = "<group>"; };
+		9EDFF66E1820D5C60014F421 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		9EDFF66F1820D5C60014F421 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		9EDFF6701820D5C60014F421 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		9EDFF6711820D5C60014F421 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E17DC40181DFCA9005C6794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E17DC7F181E0CA9005C6794 /* CoreAudio.framework in Frameworks */,
+				9E17DC7D181E0C98005C6794 /* AudioToolbox.framework in Frameworks */,
+				589E4BDA184DF769005A3116 /* libopencore-amrwb.a in Frameworks */,
+				9E17DC7B181E0C8D005C6794 /* AVFoundation.framework in Frameworks */,
+				9E17DC49181DFCA9005C6794 /* CoreGraphics.framework in Frameworks */,
+				589E4BD9184DF769005A3116 /* libopencore-amrnb.a in Frameworks */,
+				9E17DC4B181DFCA9005C6794 /* UIKit.framework in Frameworks */,
+				9E17DC47181DFCA9005C6794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E17DC5B181DFCA9005C6794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E17DC60181DFCA9005C6794 /* XCTest.framework in Frameworks */,
+				9E17DC62181DFCA9005C6794 /* UIKit.framework in Frameworks */,
+				9E17DC61181DFCA9005C6794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		589E4BCF184DF769005A3116 /* opencore */ = {
+			isa = PBXGroup;
+			children = (
+				589E4BD0184DF769005A3116 /* lib */,
+				589E4BD3184DF769005A3116 /* opencore-amrnb */,
+				589E4BD6184DF769005A3116 /* opencore-amrwb */,
+			);
+			path = opencore;
+			sourceTree = "<group>";
+		};
+		589E4BD0184DF769005A3116 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				589E4BD1184DF769005A3116 /* libopencore-amrnb.a */,
+				589E4BD2184DF769005A3116 /* libopencore-amrwb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		589E4BD3184DF769005A3116 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				589E4BD4184DF769005A3116 /* interf_dec.h */,
+				589E4BD5184DF769005A3116 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		589E4BD6184DF769005A3116 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				589E4BD7184DF769005A3116 /* dec_if.h */,
+				589E4BD8184DF769005A3116 /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		9E17DC3A181DFCA9005C6794 = {
+			isa = PBXGroup;
+			children = (
+				9EDFF66D1820D5C60014F421 /* amrwapper */,
+				9E17DC4C181DFCA9005C6794 /* AmrConvertAndRecord */,
+				9E17DC65181DFCA9005C6794 /* AmrConvertAndRecordTests */,
+				9E17DC45181DFCA9005C6794 /* Frameworks */,
+				9E17DC44181DFCA9005C6794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E17DC44181DFCA9005C6794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E17DC43181DFCA9005C6794 /* AmrConvertAndRecord.app */,
+				9E17DC5E181DFCA9005C6794 /* AmrConvertAndRecordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E17DC45181DFCA9005C6794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E17DC7E181E0CA9005C6794 /* CoreAudio.framework */,
+				9E17DC7C181E0C98005C6794 /* AudioToolbox.framework */,
+				9E17DC7A181E0C8D005C6794 /* AVFoundation.framework */,
+				9E17DC46181DFCA9005C6794 /* Foundation.framework */,
+				9E17DC48181DFCA9005C6794 /* CoreGraphics.framework */,
+				9E17DC4A181DFCA9005C6794 /* UIKit.framework */,
+				9E17DC5F181DFCA9005C6794 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E17DC4C181DFCA9005C6794 /* AmrConvertAndRecord */ = {
+			isa = PBXGroup;
+			children = (
+				589E4BCF184DF769005A3116 /* opencore */,
+				9E17DC55181DFCA9005C6794 /* CWAppDelegate.h */,
+				9E17DC56181DFCA9005C6794 /* CWAppDelegate.m */,
+				9E17DC75181DFD24005C6794 /* CWMainViewController.h */,
+				9E17DC76181DFD24005C6794 /* CWMainViewController.m */,
+				9E17DC77181DFD24005C6794 /* CWMainViewController.xib */,
+				9E17DC58181DFCA9005C6794 /* Images.xcassets */,
+				9E17DC4D181DFCA9005C6794 /* Supporting Files */,
+				9E17DC8C181E3786005C6794 /* CWUtility.h */,
+				9E17DC8D181E3786005C6794 /* CWUtility.m */,
+				9E17DC8F181F533D005C6794 /* CWTouchHandleView.h */,
+				9E17DC90181F533D005C6794 /* CWTouchHandleView.m */,
+			);
+			path = AmrConvertAndRecord;
+			sourceTree = "<group>";
+		};
+		9E17DC4D181DFCA9005C6794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E17DC4E181DFCA9005C6794 /* AmrConvertAndRecord-Info.plist */,
+				9E17DC4F181DFCA9005C6794 /* InfoPlist.strings */,
+				9E17DC52181DFCA9005C6794 /* main.m */,
+				9E17DC54181DFCA9005C6794 /* AmrConvertAndRecord-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E17DC65181DFCA9005C6794 /* AmrConvertAndRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E17DC6B181DFCAA005C6794 /* AmrConvertAndRecordTests.m */,
+				9E17DC66181DFCA9005C6794 /* Supporting Files */,
+			);
+			path = AmrConvertAndRecordTests;
+			sourceTree = "<group>";
+		};
+		9E17DC66181DFCA9005C6794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E17DC67181DFCA9005C6794 /* AmrConvertAndRecordTests-Info.plist */,
+				9E17DC68181DFCA9005C6794 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EDFF66D1820D5C60014F421 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				9EDFF66E1820D5C60014F421 /* amrFileCodec.h */,
+				9EDFF66F1820D5C60014F421 /* amrFileCodec.mm */,
+				9EDFF6701820D5C60014F421 /* wav.h */,
+				9EDFF6711820D5C60014F421 /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E17DC42181DFCA9005C6794 /* AmrConvertAndRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E17DC6F181DFCAA005C6794 /* Build configuration list for PBXNativeTarget "AmrConvertAndRecord" */;
+			buildPhases = (
+				9E17DC3F181DFCA9005C6794 /* Sources */,
+				9E17DC40181DFCA9005C6794 /* Frameworks */,
+				9E17DC41181DFCA9005C6794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmrConvertAndRecord;
+			productName = AmrConvertAndRecord;
+			productReference = 9E17DC43181DFCA9005C6794 /* AmrConvertAndRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E17DC5D181DFCA9005C6794 /* AmrConvertAndRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E17DC72181DFCAA005C6794 /* Build configuration list for PBXNativeTarget "AmrConvertAndRecordTests" */;
+			buildPhases = (
+				9E17DC5A181DFCA9005C6794 /* Sources */,
+				9E17DC5B181DFCA9005C6794 /* Frameworks */,
+				9E17DC5C181DFCA9005C6794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E17DC64181DFCA9005C6794 /* PBXTargetDependency */,
+			);
+			name = AmrConvertAndRecordTests;
+			productName = AmrConvertAndRecordTests;
+			productReference = 9E17DC5E181DFCA9005C6794 /* AmrConvertAndRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E17DC3B181DFCA9005C6794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Holyen Zou";
+				TargetAttributes = {
+					9E17DC5D181DFCA9005C6794 = {
+						TestTargetID = 9E17DC42181DFCA9005C6794;
+					};
+				};
+			};
+			buildConfigurationList = 9E17DC3E181DFCA9005C6794 /* Build configuration list for PBXProject "AmrConvertAndRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E17DC3A181DFCA9005C6794;
+			productRefGroup = 9E17DC44181DFCA9005C6794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E17DC42181DFCA9005C6794 /* AmrConvertAndRecord */,
+				9E17DC5D181DFCA9005C6794 /* AmrConvertAndRecordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E17DC41181DFCA9005C6794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E17DC51181DFCA9005C6794 /* InfoPlist.strings in Resources */,
+				9E17DC59181DFCA9005C6794 /* Images.xcassets in Resources */,
+				9E17DC79181DFD24005C6794 /* CWMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E17DC5C181DFCA9005C6794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E17DC6A181DFCA9005C6794 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E17DC3F181DFCA9005C6794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E17DC8E181E3786005C6794 /* CWUtility.m in Sources */,
+				9E17DC57181DFCA9005C6794 /* CWAppDelegate.m in Sources */,
+				9E17DC78181DFD24005C6794 /* CWMainViewController.m in Sources */,
+				9EDFF6731820D5C60014F421 /* wav.mm in Sources */,
+				9EDFF6721820D5C60014F421 /* amrFileCodec.mm in Sources */,
+				9E17DC91181F533D005C6794 /* CWTouchHandleView.m in Sources */,
+				9E17DC53181DFCA9005C6794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E17DC5A181DFCA9005C6794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E17DC6C181DFCAA005C6794 /* AmrConvertAndRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E17DC64181DFCA9005C6794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E17DC42181DFCA9005C6794 /* AmrConvertAndRecord */;
+			targetProxy = 9E17DC63181DFCA9005C6794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E17DC4F181DFCA9005C6794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E17DC50181DFCA9005C6794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E17DC68181DFCA9005C6794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E17DC69181DFCA9005C6794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E17DC6D181DFCAA005C6794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E17DC6E181DFCAA005C6794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E17DC70181DFCAA005C6794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmrConvertAndRecord/AmrConvertAndRecord-Prefix.pch";
+				INFOPLIST_FILE = "AmrConvertAndRecord/AmrConvertAndRecord-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/holyenzou/Dropbox/Code/demo/AmrCovertAndRecordDemoByMySelf/AmrConverterAndRecordDemo/AmrConvertAndRecord/opencore/lib,
+					"/Users/jarodxiao/Downloads/AmrConverterAndRecordDemo-master/AmrConvertAndRecord/AmrConvertAndRecord/opencore/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E17DC71181DFCAA005C6794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmrConvertAndRecord/AmrConvertAndRecord-Prefix.pch";
+				INFOPLIST_FILE = "AmrConvertAndRecord/AmrConvertAndRecord-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/holyenzou/Dropbox/Code/demo/AmrCovertAndRecordDemoByMySelf/AmrConverterAndRecordDemo/AmrConvertAndRecord/opencore/lib,
+					"/Users/jarodxiao/Downloads/AmrConverterAndRecordDemo-master/AmrConvertAndRecord/AmrConvertAndRecord/opencore/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E17DC73181DFCAA005C6794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmrConvertAndRecord.app/AmrConvertAndRecord";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmrConvertAndRecord/AmrConvertAndRecord-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AmrConvertAndRecordTests/AmrConvertAndRecordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9E17DC74181DFCAA005C6794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmrConvertAndRecord.app/AmrConvertAndRecord";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmrConvertAndRecord/AmrConvertAndRecord-Prefix.pch";
+				INFOPLIST_FILE = "AmrConvertAndRecordTests/AmrConvertAndRecordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E17DC3E181DFCA9005C6794 /* Build configuration list for PBXProject "AmrConvertAndRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E17DC6D181DFCAA005C6794 /* Debug */,
+				9E17DC6E181DFCAA005C6794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E17DC6F181DFCAA005C6794 /* Build configuration list for PBXNativeTarget "AmrConvertAndRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E17DC70181DFCAA005C6794 /* Debug */,
+				9E17DC71181DFCAA005C6794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E17DC72181DFCAA005C6794 /* Build configuration list for PBXNativeTarget "AmrConvertAndRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E17DC73181DFCAA005C6794 /* Debug */,
+				9E17DC74181DFCAA005C6794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E17DC3B181DFCA9005C6794 /* Project object */;
+}
