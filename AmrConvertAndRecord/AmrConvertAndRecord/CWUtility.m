@@ -81,7 +81,7 @@
                                                 settings:[CWUtility audioRecorderSettingDict]
                                                    error:nil];
     self.recorder.delegate = self;
-    self.recorder.meteringEnabled = YES;
+    self.recorder.meteringEnabled = YES;//开启音量检测   
     [self.recorder prepareToRecord];
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
     [[AVAudioSession sharedInstance] setActive:YES error:nil];
@@ -113,7 +113,7 @@
 {
     NSDictionary *recordSetting = [[NSDictionary alloc] initWithObjectsAndKeys:
                                    [NSNumber numberWithFloat: 8000],AVSampleRateKey, //采样率
-                                   [NSNumber numberWithInt: kAudioFormatLinearPCM],AVFormatIDKey,
+                                   [NSNumber numberWithInt: kAudioFormatLinearPCM],AVFormatIDKey,//音频格式
                                    [NSNumber numberWithInt:16],AVLinearPCMBitDepthKey,//采样位数 默认 16
                                    [NSNumber numberWithInt: 1], AVNumberOfChannelsKey,//通道的数目
                                    [NSNumber numberWithInt: AVAudioQualityMin], AVEncoderAudioQualityKey,//录音质量
