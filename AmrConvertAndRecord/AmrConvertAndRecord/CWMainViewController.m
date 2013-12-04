@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    timeCut =0;
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self
                                                                                             action:@selector(recordButtonLongPress:)];
     longPress.delegate = self;
@@ -38,12 +39,36 @@
     if (longPress.state == UIGestureRecognizerStateBegan) {
         //录音开始.
         [_utility beginRecordByFileName:[CWUtility currentTimeString]];
+        
+        dengTimer = [NSTimer scheduledTimerWithTimeInterval:1
+                                                     target: self
+                                                   selector: @selector(handle)
+                                                   userInfo: nil
+                                                    repeats: YES];
+        
+        
+        
     } else if (longPress.state == UIGestureRecognizerStateEnded) {
         //结束.
         [_utility stopRecord];
-        NSString *wavInfoStr = [NSString stringWithFormat:@"文件大小:%d", [_utility sizeOfFileFromPath:_utility.path] / 1024];
-        _wavInfoLabel.text = wavInfoStr;
         
+        NSLog(@"%d",[_utility sizeOfFileFromPath:_utility.path]);
+        NSString *wavInfoStr = [NSString stringWithFormat:@"文件大小:%d kb", [_utility sizeOfFileFromPath:_utility.path] / 1024];
+        _wavInfoLabel.text = wavInfoStr;
+        self.wavTimeLabel.text = [NSString stringWithFormat:@"%d  s",timeCut];
+        timeCut=0;
+        [dengTimer invalidate];
+        dengTimer = nil;
+    }
+}
+
+- (void)handle{
+    timeCut++;
+    //    DLog(@"%d",timecut);
+    if (timeCut==0) {
+        
+        [dengTimer invalidate];
+        dengTimer = nil;
     }
 }
 

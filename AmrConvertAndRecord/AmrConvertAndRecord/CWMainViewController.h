@@ -12,6 +12,8 @@
 @interface CWMainViewController : UIViewController <UIGestureRecognizerDelegate>
 {
     CWUtility *_utility;
+    NSTimer *dengTimer;
+    int timeCut;
 }
 
 @property (weak, nonatomic) IBOutlet UIButton *recordButton;
@@ -19,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *playWavButtonTap;
 
 @property (weak, nonatomic) IBOutlet UILabel *wavInfoLabel;
+@property (weak, nonatomic) IBOutlet UILabel *wavTimeLabel;
 
 - (IBAction)playWav:(id)sender;
 - (IBAction)wavToAmr:(id)sender;
